@@ -11,4 +11,10 @@
 
 要解決這問題也很簡單，既然圖越多Batches也越高，那把所有圖合成一張大圖就沒問題了，就是這麼簡單暴力。
 
-動態的Sprite通常會輸出成一張序列圖
+動態的Sprite通常會輸出成一張序列圖。
+
+![image](https://github.com/KiroKuru/Unity-Note-SpriteAtlas/blob/main/Double%20Jump%20(32x32).png)
+
+而場景物件與UI則會拚入一張大圖，放進Unity後再使用Multiple Mode進行切割。
+
+
