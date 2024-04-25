@@ -68,3 +68,10 @@ Sprite Atlas可以將散圖自動集成一張大圖，可以想成將拼成一�
 ![image](https://github.com/KiroKuru/Unity-Note-SpriteAtlas/blob/main/SpriteAtlasBefore.png)
 
 ![image](https://github.com/KiroKuru/Unity-Note-SpriteAtlas/blob/main/SpriteAtlasAfter.png)
+
+額外提一下，之前使用Shader的UV時，如果圖與圖的間距太近，會看到附近的其他圖。
+
+這情況可以調整一下Padding的大小增加間距，或是乾脆另外處理。
+
+
+Sprite Atlas是個蠻好用的功能，簡單幾個步驟就能改善，使用上也沒什麼大問題。
