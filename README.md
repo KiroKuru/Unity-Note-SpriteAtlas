@@ -1,4 +1,4 @@
-# Unity-Note-SpriteAtlas
+# Unity筆記-SpriteAtlas
 製作遊戲時會使用相當多的Sprite來構成畫面與UI，當然這也相應的帶來性能上的消耗。
 
 但大學時期的我還不太有這些概念，當時的流程就是畫好一個UI或物件，儲存然後放進Unity內，接著就直接拉到場景上。
