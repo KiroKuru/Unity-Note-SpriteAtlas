@@ -17,7 +17,17 @@
 
 ![image](https://github.com/KiroKuru/Unity-Note-SpriteAtlas/blob/main/Double%20Jump%20(32x32).png)
 
-- 而場景物件與UI則會拚入一張大圖，放進Unity後再使用Multiple Mode進行切割
+- 而場景物件、地圖板塊與UI則會拚入一張大圖，放進Unity後再使用Multiple Mode進行切割
 
 ![image](https://github.com/KiroKuru/Unity-Note-SpriteAtlas/blob/main/tileset-sliced.png)
+
+第一項序列圖沒什麼問題，但第二項如果碰到需要換圖、尺寸不對、加圖等，就需要重新編排跟切割。
+
+這樣一來一往就增加了時間成本，顯然應該有更好的方法。
+
+這時候就可以使用Unity本身自帶的Sprite Atlas功能。
+
+https://docs.unity3d.com/Manual/class-SpriteAtlas.html
+
+Sprite Atlas可以將散圖自動集成一張大圖，可以想成將拼成一張大圖這個步驟自動化了。
 
