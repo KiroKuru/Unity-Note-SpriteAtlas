@@ -31,3 +31,40 @@ https://docs.unity3d.com/Manual/class-SpriteAtlas.html
 
 Sprite Atlas可以將散圖自動集成一張大圖，可以想成將拼成一張大圖這個步驟自動化了。
 
+# 使用方法
+
+首先建立一個Sprite Atlas
+
+![image](https://github.com/KiroKuru/Unity-Note-SpriteAtlas/blob/main/SpriteAtlasCreate.png)
+
+這邊可以進行一些基本設定
+
+![image](https://github.com/KiroKuru/Unity-Note-SpriteAtlas/blob/main/SpriteAtlasSetting.png)
+
+- Type
+  
+  有分Master與Variant，Master代表主圖，作為Variant的基礎，通常解析度比較高。
+
+  Variant則是Master的衍生版本，根據特定要求生成，例如不同解析度、壓縮設定、針對特定平台的優化等。
+
+- Allow Rotation
+  
+  允許打包時旋轉圖片，最大化圖片間的密度。但要注意如果有包含Canvas UI，需要取消勾選，因為也會同時旋轉他們在場景中的方向。
+
+- Tight Packing
+
+  勾選後會根據圖片的輪廓來打包，而非矩形框，最大化圖片間的密度。
+
+- Padding
+
+  這是設置圖片間相鄰的距離，用來防止圖片間相互重疊。
+
+設定好後在下方Objects for Packing可以選擇需要打包的資料夾或圖片，最後選擇Pack Preview就會自動進行打包。
+
+![image](https://github.com/KiroKuru/Unity-Note-SpriteAtlas/blob/main/SpriteAtlasPacking.png)
+
+可以看到同一場景Batches的數值從14降到2。(Statistics在Game視窗的右上角Stats)
+
+![image](https://github.com/KiroKuru/Unity-Note-SpriteAtlas/blob/main/SpriteAtlasBefore.png)
+
+![image](https://github.com/KiroKuru/Unity-Note-SpriteAtlas/blob/main/SpriteAtlasAfter.png)
