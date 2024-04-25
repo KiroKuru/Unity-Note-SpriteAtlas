@@ -15,11 +15,11 @@
 
 - 動態的Sprite通常會輸出成一張序列圖
 
-![image](https://github.com/KiroKuru/Unity-Note-SpriteAtlas/blob/main/Double%20Jump%20(32x32).png)
+![image](https://imgur.com/7Dqaszt)
 
 - 而場景物件、地圖板塊與UI則會拚入一張大圖，放進Unity後再使用Multiple Mode進行切割
 
-![image](https://github.com/KiroKuru/Unity-Note-SpriteAtlas/blob/main/tileset-sliced.png)
+![image](https://imgur.com/Zq1oISa)
 
 第一項序列圖沒什麼問題，但第二項如果碰到需要換圖、尺寸不對、加圖等，就需要重新編排跟切割。
 
